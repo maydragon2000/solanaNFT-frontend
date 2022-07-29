@@ -1,0 +1,54 @@
+.campus {
+    height: calc(100vh - 200px);
+    background: #211C1C;
+    padding-top: 100px;
+    min-height: 700px;
+}
+
+.campus-inner {
+    background: radial-gradient(50.01% 50% at 100% 50%, rgba(224, 47, 41, 0.5) 0%, rgba(39, 40, 58, 0) 100%);
+}
+
+.campus h1 {
+    font-family: 'Graduate';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 155.1%;
+    /* identical to box height, or 70px */
+
+    text-align: center;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px #E02F29;
+}
+
+.campus a {
+    font-family: 'Graduate';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 155.1%;
+    /* identical to box height, or 62px */
+
+    text-align: center;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px #E02F29;
+}
+
+.campus .stakingbutton,
+.campus .marketplacebutton {
+    margin-top: 80px;
+}
+
+.campus .storebutton,
+.campus .beerpongbutton {
+    margin-top: 50px;
+}

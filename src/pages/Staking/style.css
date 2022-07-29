@@ -1,0 +1,164 @@
+.staking {
+    background: #211C1C;
+    padding-top: 100px;
+}
+
+.staking-inner {
+    background: radial-gradient(50.01% 50% at 100% 50%, rgba(224, 47, 41, 0.5) 0%, rgba(39, 40, 58, 0) 100%);
+}
+
+.staking h1 {
+    font-family: 'Graduate';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 155.1%;
+    /* identical to box height, or 70px */
+
+    text-align: center;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px #E02F29;
+}
+
+.staking .back-wrap {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.backline {
+    width: 100px;
+    height: 2px;
+    background-image: linear-gradient(to right, #E02F29, #272838);
+    margin-left: -5px;
+    margin-right: 20px;
+}
+
+.staking .backbutton {
+    display: flex;
+    font-family: 'Graduate';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 155.1%;
+
+    text-align: center;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px #E02F29;
+    border: 0px;
+    text-decoration: none;
+}
+
+
+.staking-wrap {
+    margin-top: 48px !important;
+}
+
+.staking h2 {
+    font-family: 'Graduate';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 27px;
+    text-align: center;
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px #E02F29;
+    margin-bottom: 26px;
+}
+
+.staking-box {
+    width: 555px;
+    height: 439px;
+    left: 74px;
+    top: 444px;
+    padding: 32px;
+    background: rgba(224, 47, 41, 0.1);
+    border: 1px solid #000000;
+    margin-bottom: 40px;
+}
+
+.staking-wrap .left {
+    padding-left: 74px;
+}
+
+
+
+.staking .student-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.staking-box img {
+    width: 93px;
+}
+
+.staking .stake-button {
+    width: 127px;
+    height: 36px;
+    left: 464px;
+    top: 504px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #E02F29;
+    box-shadow: 0px 4px 4px #000000;
+    border-radius: 80px;
+    font-family: 'Graduate';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 155.1%;
+    /* identical to box height, or 22px */
+
+    text-align: center;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+    border: 0px;
+}
+
+.staking .staking-wrap p {
+    font-family: 'Graduate';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 155.1%;
+    /* identical to box height, or 22px */
+
+    text-align: center;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.staking .staking-wrap h3 {
+    font-family: 'Graduate';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 155.1%;
+    /* or 31px */
+
+    text-align: center;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px #000000;
+}

@@ -1,0 +1,315 @@
+.home {
+    background-color: #211C1C;
+    padding: 0px 20px;
+}
+
+.welcome {
+    padding: 80px 0px;
+}
+
+.welcome .left {
+    padding: 50px 0px 0px 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome .left h1 {
+    font-family: 'Graduate';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 155.1%;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px #E02F29;
+    margin-bottom: 45px;
+}
+
+.welcome .left p {
+    font-family: 'Graduate';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 155.1%;
+    /* or 25px */
+
+    text-align: justify;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+    width: 500px;
+}
+
+.welcome .right {
+    background: radial-gradient(100.01% 50% at 100% 50%, rgba(224, 47, 41, 0.5) 0%, rgba(39, 40, 58, 0) 100%);
+}
+
+.welcome .right img {
+    width: 80%;
+}
+
+.roadmap .title {
+    font-family: 'Graduate';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 155.1%;
+    /* identical to box height, or 62px */
+
+    text-align: center;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px #E02F29;
+    margin-bottom: 110px;
+}
+
+.roadmap h1 {
+    font-family: 'Graduate';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 204.45%;
+    /* or 74px */
+
+    text-align: center;
+
+    color: #E5E5E5;
+
+    text-shadow: 0px 4px 4px #E02F29;
+}
+
+.roadmap h2 {
+    font-family: 'Graduate';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 204.45%;
+    width: 100%;
+    color: #E5E5E5;
+
+    text-shadow: 0px 4px 4px #E02F29;
+}
+
+.roadmap p {
+    font-family: 'Graduate';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 204.45%;
+    /* or 29px */
+
+    color: #FFFFFF;
+}
+
+.roadmap .left {
+    padding-left: 70px;
+    padding-top: 20px;
+    padding-right: 0px;
+    border-right: solid 2px #E02F29;
+    background: radial-gradient(40.01% 20% at 0.01% 50%, rgba(224, 47, 41, 0.5) 0%, rgba(39, 40, 58, 0) 100%);
+}
+
+.roadmap .march,
+.roadmap .may,
+.roadmap .april,
+.roadmap .soon {
+    border-top: solid 3px #E02F29;
+}
+
+.roadmap .march-inner,
+.roadmap .may-inner {
+    margin-top: -38.5px;
+}
+
+.roadmap .march-inner h1,
+.roadmap .may-inner h1 {
+    width: 60%;
+    background: #211C1C;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+    align-items: center;
+    padding-right: 0px;
+}
+
+.roadmap .sqare {
+    width: 20px;
+    height: 20px;
+}
+
+.roadmap .march .sqare {
+    margin-left: 30px;
+}
+
+.roadmap .may .sqare {
+    margin-left: 50px;
+}
+
+.roadmap .may {
+    margin-top: 100px;
+}
+
+.roadmap .right {
+    padding-top: 150px;
+    padding-left: 0px;
+    border-left: solid 2px #E02F29;
+    padding-bottom: 50px;
+}
+
+
+.roadmap .april-inner,
+.roadmap .soon-inner {
+    margin-top: -38.5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-left: 72px;
+}
+
+.roadmap .april-inner h1,
+.roadmap .soon-inner h1 {
+    width: 60%;
+    background: #211C1C;
+    display: flex;
+    justify-content: flex-start;
+    padding-right: 20px;
+    align-items: center;
+}
+
+.roadmap .april .sqare {
+    margin-right: 20px;
+}
+
+.roadmap .soon .sqare {
+    margin-right: 20px;
+}
+
+.roadmap .soon {
+    margin-top: 150px;
+}
+
+/* team */
+.team {
+    margin-top: 130px;
+    background: radial-gradient(100.01% 50% at 150% 50%, rgba(224, 47, 41, 0.5) 0%, rgba(39, 40, 58, 0) 100%);
+
+}
+
+.team h1 {
+    font-family: 'Graduate';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 155.1%;
+    /* identical to box height, or 62px */
+
+    text-align: center;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px #E02F29;
+    margin-bottom: 35px;
+}
+
+.team .top,
+.team .second {
+    display: flex;
+    justify-content: center;
+}
+
+.team .top {
+    margin-bottom: 100px;
+}
+
+.team .top .team-member {
+    margin-right: 22px;
+}
+
+.team .second .team-member {
+    margin-right: 58px;
+}
+
+/* LINK */
+.link {
+    margin-top: 150px;
+}
+
+.link h1 {
+    font-family: 'Graduate';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 155.1%;
+    /* identical to box height, or 62px */
+
+    text-align: center;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px #E02F29;
+    margin-bottom: 92px;
+}
+
+.link .link-wrap {
+    display: flex;
+    justify-content: center;
+}
+
+.link .link-wrap a {
+    margin-right: 45px;
+    margin-left: 45px;
+}
+
+.link .discord svg {
+    width: 88px;
+    height: 65px;
+    color: #5865F2;
+}
+
+.link .twitter svg {
+    width: 89px;
+    height: 70px;
+    color: #33CCFF;
+}
+
+/* footer-border */
+.footer-boder {
+    margin-top: 87px;
+    height: 9px;
+    background: linear-gradient(180deg, #E02F29 0%, rgba(224, 47, 41, 0) 100%);
+}
+
+.footer {
+    height: 81px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer p {
+    font-family: 'Graduate';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 155.1%;
+    /* identical to box height, or 25px */
+
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    letter-spacing: 0.2em;
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+}
